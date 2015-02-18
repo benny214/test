@@ -22,8 +22,7 @@ li {
 
 .main-container {
   width: 100%;
-  height: 100%;
-  overflow: hidden; }
+  height: 100%; }
   .main-container:after {
     content: "";
     display: table;
@@ -94,6 +93,7 @@ li {
     display: table;
     clear: both; }
   .user__list .user__item {
+    opacity: 0;
     float: left;
     width: 43%;
     margin-bottom: 52px;
@@ -128,4 +128,13 @@ li {
     float: none;
     width: 100%;
     background-image: url(../img/bg.png);
-    padding-top: 26px; } }
+    padding-top: 26px; }
+
+  .user__list {
+    margin-left: 26px; }
+    .user__list .user__item {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .user__list .user__item .item__img {
+        float: none; } }
